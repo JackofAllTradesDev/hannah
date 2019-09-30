@@ -43,4 +43,4 @@ Category sixthCat = Category(
 
 
 
-List<Category> cats = [firstCat, secondCat, thirdCat, fourthCat, fifthCat, sixthCat];
+List<Category> cats = [firstCat, secondCat, thirdCat, fourthCat, sixthCat];
