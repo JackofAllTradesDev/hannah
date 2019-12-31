@@ -70,7 +70,7 @@ class _MyAppState extends State<MyAppSkills> {
                         child: Padding(
                           padding: EdgeInsets.symmetric(
                               horizontal: 22.0, vertical: 6.0),
-                          child: Text("SUZIEE POO",
+                          child: Text("I dont have skills so here's cattos and doggos",
                               style: TextStyle(color: Colors.white)),
                         ),
                       ),
@@ -78,8 +78,8 @@ class _MyAppState extends State<MyAppSkills> {
                     SizedBox(
                       width: 15.0,
                     ),
-                    Text("143 Hearts",
-                        style: TextStyle(color: Colors.blueAccent))
+                    // Text(currentPage.toInt().toString(),
+                    //     style: TextStyle(color: Colors.blueAccent))
                   ],
                 ),
               ),
@@ -173,7 +173,7 @@ class _MyAppState extends State<MyAppSkills> {
                     padding: EdgeInsets.only(left: 18.0),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20.0),
-                      child: Image.asset("assets/catscared.png",
+                      child: Image.asset("assets/catlobe.jpeg",
                           width: 296.0, height: 222.0),
                     ),
                   ),
@@ -259,18 +259,18 @@ class CardScrollWidget extends StatelessWidget {
                             Padding(
                               padding: EdgeInsets.symmetric(
                                   horizontal: 16.0, vertical: 8.0),
-                              child: Text(title[i],
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25.0,
-                                    shadows: [
-                                      Shadow(
-                                        blurRadius: 0.0,
-                                        color: Colors.grey,
-                                        offset: Offset(-2.0, 2.0),
-                                      ),
-                                    ],
-                                  )),
+                              // child: Text(title[i],
+                              //     style: TextStyle(
+                              //       color: Colors.white,
+                              //       fontSize: 25.0,
+                              //       shadows: [
+                              //         Shadow(
+                              //           blurRadius: 0.0,
+                              //           color: Colors.grey,
+                              //           offset: Offset(-2.0, 2.0),
+                              //         ),
+                              //       ],
+                              //     )),
                             ),
                             SizedBox(
                               height: 10.0,

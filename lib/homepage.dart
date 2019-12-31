@@ -9,7 +9,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: GestureDetector(
-        onTap: () { _generatePalette(context, "assets/tests.jpg").then((_palette) {
+        onTap: () { _generatePalette(context, "assets/profile.jpg").then((_palette) {
           Navigator.push(
               context,
               MaterialPageRoute(
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
             child: Text(
               "START WITH ME",
               style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 18,
                   fontWeight: FontWeight.bold),
             ),
@@ -35,12 +35,12 @@ class MyHomePage extends StatelessWidget {
         width: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/test.jpg"), fit: BoxFit.cover),
+              image: AssetImage("assets/wolf.jpg"), fit: BoxFit.cover),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.only(left: 16.0, bottom: 120.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(

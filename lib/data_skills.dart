@@ -1,10 +1,10 @@
 List<String> images = [
-  "assets/affirmation.jpg",
-  "assets/sincere.jpg",
-  "assets/sleeping.jpg",
-  "assets/patience.png",
-  "assets/catscared.png",
-  "assets/family2.jpg"
+  "assets/cat1.jpeg",
+  "assets/cat2.jpeg",
+  "assets/cat3.jpeg",
+  "assets/cat4.jpeg",
+  "assets/dog1.jpeg",
+  "assets/dog2.jpeg"
 ];
 
 List<String> title = [

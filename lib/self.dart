@@ -42,9 +42,9 @@ class _SelfPage extends State<SelfPage> with SingleTickerProviderStateMixin {
           makePage(
               page: 2,
               image: 'assets/bone.png',
-              title: 'Marunong mag-antay',
+              title: 'PTSD',
               description:
-                  'Patience is the key ika nga nila. So ayun inaral ko pano mag isa para kahit nasa stage ka at nag ho-host eh ako naman ay nanatiling nasa audience kumakain ng ice cream.'),
+                  'I don’t know where I’m running to, I just know that I have to run tonight.'),
           makePage(
               page: 3,
               image: 'assets/dimensions.jpg',
@@ -54,15 +54,15 @@ class _SelfPage extends State<SelfPage> with SingleTickerProviderStateMixin {
           makePage(
               page: 4,
               image: 'assets/mask.png',
-              title: 'Workaholic',
+              title: 'Death',
               description:
-                  "Hindi lang ang pag tra-trabaho ang ina-atupag ko kundi sa pag work din ng ating bubuuin pag sasamahan. Im a developer baka naman sana madevelop tayong dalawa."),
+                  "The theme of death feels appropriate as I run, wishing I was dead."),
           makePage(
               page: 5,
               image: 'assets/selfff.jpg',
-              title: 'Maraming idea',
+              title: 'Pessimist',
               description:
-                  "Idea ko nga na ligawan ka eh. Pwede kabang ligawan kahit hindi mo agad sagutin basta nag tanong ako. Kung hindi kapa okay, balik tayo sa una kong trait yung marunong mag hintay. Idea ko din na mag tagal so handa kindly prepare yourself for some up and down roller coaster ride with a twist."),
+                  "I looked around and I told myself I was safe, I was fine but I was convinced that something was wrong"),
         ],
       ),
     );
@@ -204,7 +204,7 @@ class _SelfPage extends State<SelfPage> with SingleTickerProviderStateMixin {
                       FadeAnimation(
                           2.5,
                           Text(
-                            'LOVE ME OR LOVE YOU',
+                            'Something you must know.',
                             style: TextStyle(color: Colors.white),
                           )),
                       SizedBox(

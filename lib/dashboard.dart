@@ -23,7 +23,7 @@ class MyDashboard extends StatelessWidget {
     return Scaffold(
         body: Stack(children: <Widget>[
       Image.asset(
-        "assets/tests.jpg",
+        "assets/profile.jpg",
         height: double.infinity,
         width: double.infinity,
         fit: BoxFit.fitHeight,
@@ -55,14 +55,14 @@ class MyDashboard extends StatelessWidget {
                 child: SingleChildScrollView(
                   scrollDirection: Axis.vertical,
                   child: Text(
-                    "Hi! Im a Computer Science graduate studied at STI Academic Center of Las Piñas. I am giving you a short introduction of me.\n \nI do a lot of work and thinking, I have thousands of ideas that people can benefit mostly people that needs help. I love you, I mean I love the work that I am doing I could do this forever. \n\nMost of the time I am sleeping ang slacking off but my mind doesn't do that my mind keeps on generating ideas sometimes I cant even sleep cause my mind are full of it. \n\nSince I met you Hannah Ty. You're always on my mind and there's no 1, 013, 146 english words on the dictionary that can describe how much I love you. I am not gonna rush things but I just want you to know that I already fell in love with you.",
+                    "I am giving you a short introduction of me.\n \nI do a lot of work and thinking, I have thousands of ideas that people can benefit mostly people that needs help. I am diagnosed with ptsd (just so you know) I am lonewolf since a child doesnt really go to my packs and always wonder on my own. I am workaholic type of person. I'd like to be busy and do nothing when im on a break from work.\n \nI always keep myself occupied on things that I want to do that will never happen anyways.",
                     style: descriptionStyle,
                     textAlign: TextAlign.justify,
                   ),
                 ),
               ),
               SizedBox(height: size_20),
-              Text("Pick anything to know me more.".toUpperCase(),
+              Text("Know me more:".toUpperCase(),
                   style: descriptionBoldStyle),
               SizedBox(height: size_8),
               Container(
